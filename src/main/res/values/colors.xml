@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#dddddd</color>
+    <color name="toolbar_color">#fafafa</color>
+    <color name="colorPrimaryDark">#f0f0f0</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="siyah">#000000</color>
+    <color name="beyaz">#ffffff</color>
+    <color name="mavi">#3997f0</color>
+    <color name="sonukmavi">#643997f0</color>
+</resources>

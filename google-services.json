@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "438445396608",
+    "firebase_url": "https://ebeveynmedia.firebaseio.com",
+    "project_id": "ebeveynmedia",
+    "storage_bucket": "ebeveynmedia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438445396608:android:33a34d93d98a7c8c460c65",
+        "android_client_info": {
+          "package_name": "com.med.ebeveynmedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438445396608-qmajse5pn3677cl854u1qaj67c85egoi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.med.ebeveynmedia",
+            "certificate_hash": "81f4a102df2e4a8daca762779a5e0bb7a26633d0"
+          }
+        },
+        {
+          "client_id": "438445396608-f5fh5ad7getqia69sug6q9k9pa9tt3je.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfmyAIwqWR6_KrMSNTQf-VUjPp7j1v-g0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438445396608-f5fh5ad7getqia69sug6q9k9pa9tt3je.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

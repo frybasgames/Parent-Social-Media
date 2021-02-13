@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgUserProfile"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvKullaniciAdiBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        android:textColor="@color/siyah"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imgUserProfile"
+        app:layout_constraintStart_toEndOf="@+id/imgUserProfile"
+        app:layout_constraintTop_toTopOf="@+id/imgUserProfile" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgUserProfile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgUserProfile"
+        app:srcCompat="@drawable/ic_profile_options" />
+
+    <com.med.ebeveynmedia.utils.GridImageView
+        android:id="@+id/imgPostResim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgUserProfile" />
+
+    <ImageView
+        android:id="@+id/imgBegen"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPostResim"
+        app:srcCompat="@drawable/ic_begen" />
+
+    <ImageView
+        android:id="@+id/imgGonder"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgYorum"
+        app:layout_constraintStart_toEndOf="@+id/imgYorum"
+        app:layout_constraintTop_toTopOf="@+id/imgYorum"
+        app:srcCompat="@drawable/ic_gonder" />
+
+    <ImageView
+        android:id="@+id/imgYorum"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgBegen"
+        app:layout_constraintStart_toEndOf="@+id/imgBegen"
+        app:layout_constraintTop_toTopOf="@+id/imgBegen"
+        app:srcCompat="@drawable/ic_yorum" />
+
+    <TextView
+        android:id="@+id/tvKullaniciAdiveAciklama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="OmerFarukErmis"
+        app:layout_constraintStart_toStartOf="@+id/imgBegen"
+        app:layout_constraintTop_toBottomOf="@+id/imgBegen" />
+
+    <TextView
+        android:id="@+id/tvKacZamanOnce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="3 Gün Önce"
+        app:layout_constraintStart_toStartOf="@+id/tvKullaniciAdiveAciklama"
+        app:layout_constraintTop_toBottomOf="@+id/tvKullaniciAdiveAciklama" />
+
+    <TextView
+        android:id="@+id/tvBegenmeSayisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/siyah"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvKullaniciAdiveAciklama"
+        app:layout_constraintStart_toStartOf="@+id/imgBegen"
+        app:layout_constraintTop_toBottomOf="@+id/imgBegen" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
